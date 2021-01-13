@@ -8,13 +8,21 @@
 
 import Foundation
 
+//protocol HomeViewModelDelegate {
+//    func reloadData(movie: HomeViewData)
+//}
 class HomeViewModel{
     
-    var listaDeFilmes:[Result] = []
-    var client = FilmesAPI()
+    var listaDeFilmes: [Result] = []
+    private let client = FilmesAPI()
     var modelViewData: Bindable<HomeViewData?> = Bindable(nil)
+//    var delegate: HomeViewModelDelegate
     
-    
+//
+//    init(client: FilmesAPIProtocol = FilmesAPI()) {
+//        self.client = client
+//    }
+//
     func recuperarFilmes(){
         client.recebeTendenciasFilmes { (response) in
             self.listaDeFilmes = response

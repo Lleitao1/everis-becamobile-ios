@@ -14,28 +14,38 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
     
     @IBOutlet weak var tabelaFilmes: UITableView!
     
-    
+    let viewModel = HomeViewModel()
     var listaDeFilmes: [Result] = []
-    let client = FilmesAPI()
+//    let client = FilmesAPI()
         
     override func viewDidLoad() {
         super.viewDidLoad()
+//        receberFilmes()
+        bind()
+        viewModel.recuperarFilmes()
+        
+        
         self.tabelaFilmes.dataSource = self
         self.tabelaFilmes.delegate = self
-        
-        receberFilmes()
-
     }
     
-    func receberFilmes() {
-        client.recebeTendenciasFilmes { (response) in
-            self.listaDeFilmes = response
+//    func receberFilmes() {
+//        client.recebeTendenciasFilmes { (response) in
+//            self.listaDeFilmes = response
+//            self.tabelaFilmes.reloadData()
+//        }
+//    }
+    
+    func bind() {
+        viewModel.modelViewData.bind { (modelViewData) in
+            
+            guard let `modelViewData` = modelViewData else { return }
+            
+            self.listaDeFilmes = modelViewData.filmes
             self.tabelaFilmes.reloadData()
+            
         }
     }
-    
-    
-    
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

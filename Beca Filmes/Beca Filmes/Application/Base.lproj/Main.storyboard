@@ -85,7 +85,6 @@
         <!--Detalhes View Controller-->
         <scene sceneID="jQG-mV-2JG">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ebf-dn-A6M" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="detalhes" id="Y83-mI-9i8" customClass="DetalhesViewController" customModule="Beca_Filmes" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MpV-ot-oU2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -142,6 +141,7 @@
                         <outlet property="tituloDetalhes" destination="z1m-lh-gjI" id="z2s-LN-qhV"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ebf-dn-A6M" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1560.8" y="56.221889055472268"/>
         </scene>

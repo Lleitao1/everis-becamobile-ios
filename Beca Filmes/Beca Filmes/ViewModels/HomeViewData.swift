@@ -11,14 +11,16 @@ import Foundation
 protocol HomeViewDataType {
     var filmes: [Result] { get }
 }
+
 class HomeViewData {
     
-    private let model:[Result]
+    private let model: [Result]
     
-    init(model:[Result]) {
+    init(model: [Result]) {
         self.model = model
     }
 }
+
 extension HomeViewData: HomeViewDataType {
     var filmes: [Result] {
         return model
