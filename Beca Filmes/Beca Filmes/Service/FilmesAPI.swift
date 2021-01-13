@@ -9,6 +9,10 @@
 import UIKit
 import Alamofire
 
+protocol FilmesAPIProtocol {
+    func recebeTendenciasFilmes(completion: @escaping ([Result]) -> Void)
+}
+
 class FilmesAPI: NSObject {
     
     // MARK: - Get
@@ -28,8 +32,8 @@ class FilmesAPI: NSObject {
             case .failure:
                 print(resposta.error!)
                 break
+                }
             }
-        }
     }
     
 }
