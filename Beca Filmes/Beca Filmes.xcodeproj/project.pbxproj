@@ -12,13 +12,14 @@
 		3AA4247725A76F9A00925A94 /* Filme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4247625A76F9A00925A94 /* Filme.swift */; };
 		3AA4247B25A8E37700925A94 /* DetalhesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4247A25A8E37700925A94 /* DetalhesViewController.swift */; };
 		3AB0095525A73D4800B57FF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB0095425A73D4800B57FF3 /* AppDelegate.swift */; };
-		3AB0095725A73D4800B57FF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB0095625A73D4800B57FF3 /* ViewController.swift */; };
+		3AB0095725A73D4800B57FF3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB0095625A73D4800B57FF3 /* MainViewController.swift */; };
 		3AB0095A25A73D4800B57FF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AB0095825A73D4800B57FF3 /* Main.storyboard */; };
 		3AB0095C25A73D4A00B57FF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AB0095B25A73D4A00B57FF3 /* Assets.xcassets */; };
 		3AB0095F25A73D4A00B57FF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AB0095D25A73D4A00B57FF3 /* LaunchScreen.storyboard */; };
 		3AB0096A25A73D4B00B57FF3 /* Beca_FilmesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB0096925A73D4B00B57FF3 /* Beca_FilmesTests.swift */; };
 		3AB0097525A73D4B00B57FF3 /* Beca_FilmesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB0097425A73D4B00B57FF3 /* Beca_FilmesUITests.swift */; };
 		3AD3AFFE25AE213900B09ACF /* FilmesTableViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3AFFD25AE213900B09ACF /* FilmesTableViewcontroller.swift */; };
+		3AD3B00125AE349F00B09ACF /* TableViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3B00025AE349F00B09ACF /* TableViewData.swift */; };
 		C0888A727DEA2A0F830656D4 /* Pods_Beca_Filmes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79F457F8DDBB4A2B8106A342 /* Pods_Beca_Filmes.framework */; };
 		C37A4B6AEF62FE55AF5E876A /* Pods_Beca_FilmesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B9A2DA02804AE45167A76E /* Pods_Beca_FilmesTests.framework */; };
 		FCF6249E23A7308076F9CB75 /* Pods_Beca_FilmesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77466B90668D35DA5065775B /* Pods_Beca_FilmesUITests.framework */; };
@@ -51,7 +52,7 @@
 		3AA4247A25A8E37700925A94 /* DetalhesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesViewController.swift; sourceTree = "<group>"; };
 		3AB0095125A73D4800B57FF3 /* Beca Filmes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beca Filmes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AB0095425A73D4800B57FF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3AB0095625A73D4800B57FF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3AB0095625A73D4800B57FF3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		3AB0095925A73D4800B57FF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3AB0095B25A73D4A00B57FF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AB0095E25A73D4A00B57FF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -63,6 +64,7 @@
 		3AB0097425A73D4B00B57FF3 /* Beca_FilmesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beca_FilmesUITests.swift; sourceTree = "<group>"; };
 		3AB0097625A73D4B00B57FF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AD3AFFD25AE213900B09ACF /* FilmesTableViewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmesTableViewcontroller.swift; sourceTree = "<group>"; };
+		3AD3B00025AE349F00B09ACF /* TableViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewData.swift; sourceTree = "<group>"; };
 		6ADA7D5A33F2E4778300C946 /* Pods-Beca FilmesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beca FilmesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Beca FilmesTests/Pods-Beca FilmesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		77466B90668D35DA5065775B /* Pods_Beca_FilmesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Beca_FilmesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79F457F8DDBB4A2B8106A342 /* Pods_Beca_Filmes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Beca_Filmes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,13 +119,13 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		3AA4247525A76DCD00925A94 /* Controller */ = {
+		3AA4247525A76DCD00925A94 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				3AB0095625A73D4800B57FF3 /* ViewController.swift */,
-				3AA4247A25A8E37700925A94 /* DetalhesViewController.swift */,
+				3AD3AFFD25AE213900B09ACF /* FilmesTableViewcontroller.swift */,
+				3AD3B00025AE349F00B09ACF /* TableViewData.swift */,
 			);
-			path = Controller;
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		3AB0094825A73D4800B57FF3 = {
@@ -153,10 +155,10 @@
 			children = (
 				3AD3AFF825AE1BAA00B09ACF /* Application */,
 				3AA4247425A76DBF00925A94 /* Model */,
-				3AA4247525A76DCD00925A94 /* Controller */,
+				3AD3AFFF25AE25C900B09ACF /* Views */,
+				3AA4247525A76DCD00925A94 /* ViewModels */,
 				3AD3AFFA25AE1C1E00B09ACF /* Service */,
 				3AD3AFF925AE1BFA00B09ACF /* Resources */,
-				3AD3AFFD25AE213900B09ACF /* FilmesTableViewcontroller.swift */,
 			);
 			path = "Beca Filmes";
 			sourceTree = "<group>";
@@ -205,6 +207,15 @@
 				3AA4247125A740F500925A94 /* FilmesAPI.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		3AD3AFFF25AE25C900B09ACF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3AB0095625A73D4800B57FF3 /* MainViewController.swift */,
+				3AA4247A25A8E37700925A94 /* DetalhesViewController.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		A80AFAB4C47B3184D7A220F7 /* Pods */ = {
@@ -433,8 +444,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AD3AFFE25AE213900B09ACF /* FilmesTableViewcontroller.swift in Sources */,
-				3AB0095725A73D4800B57FF3 /* ViewController.swift in Sources */,
+				3AB0095725A73D4800B57FF3 /* MainViewController.swift in Sources */,
 				3A514B7C25ACA7BF0013BAFF /* UIImageViewExtension.swift in Sources */,
+				3AD3B00125AE349F00B09ACF /* TableViewData.swift in Sources */,
 				3AB0095525A73D4800B57FF3 /* AppDelegate.swift in Sources */,
 				3AA4247B25A8E37700925A94 /* DetalhesViewController.swift in Sources */,
 				3AA4247225A740F500925A94 /* FilmesAPI.swift in Sources */,
@@ -615,7 +627,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Beca Filmes/Info.plist";
+				INFOPLIST_FILE = "Beca Filmes/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -633,7 +645,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Beca Filmes/Info.plist";
+				INFOPLIST_FILE = "Beca Filmes/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

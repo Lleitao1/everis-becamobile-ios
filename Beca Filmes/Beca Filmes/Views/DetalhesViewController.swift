@@ -21,6 +21,7 @@ class DetalhesViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         if let path = filme?.posterPath{
             imagemDetalhes.loadImage(imgpath: path)
         }
