@@ -3,11 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A0C0D2E25B5DF2000066A1D /* Testes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0C0D2D25B5DF2000066A1D /* Testes.swift */; };
+		3A02EE6125B6163400309A85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A02EE6025B6163400309A85 /* Assets.xcassets */; };
 		3A514B7C25ACA7BF0013BAFF /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A514B7B25ACA7BF0013BAFF /* UIImageViewExtension.swift */; };
 		3AA4247225A740F500925A94 /* FilmesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4247125A740F500925A94 /* FilmesAPI.swift */; };
 		3AA4247725A76F9A00925A94 /* Filme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4247625A76F9A00925A94 /* Filme.swift */; };
@@ -16,7 +16,6 @@
 		3AB0095525A73D4800B57FF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB0095425A73D4800B57FF3 /* AppDelegate.swift */; };
 		3AB0095725A73D4800B57FF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB0095625A73D4800B57FF3 /* ViewController.swift */; };
 		3AB0095A25A73D4800B57FF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AB0095825A73D4800B57FF3 /* Main.storyboard */; };
-		3AB0095C25A73D4A00B57FF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AB0095B25A73D4A00B57FF3 /* Assets.xcassets */; };
 		3AB0095F25A73D4A00B57FF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AB0095D25A73D4A00B57FF3 /* LaunchScreen.storyboard */; };
 		3AB0096A25A73D4B00B57FF3 /* Beca_FilmesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB0096925A73D4B00B57FF3 /* Beca_FilmesTests.swift */; };
 		3AB0097525A73D4B00B57FF3 /* Beca_FilmesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB0097425A73D4B00B57FF3 /* Beca_FilmesUITests.swift */; };
@@ -46,7 +45,7 @@
 		1835A9686A89A4A056F96D4C /* Pods-Beca FilmesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beca FilmesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Beca FilmesUITests/Pods-Beca FilmesUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2F437A4843015825FB7BB869 /* Pods-Beca Filmes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beca Filmes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Beca Filmes/Pods-Beca Filmes.debug.xcconfig"; sourceTree = "<group>"; };
 		31BC0A8A75BB17870192BE42 /* Pods-Beca FilmesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beca FilmesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Beca FilmesTests/Pods-Beca FilmesTests.release.xcconfig"; sourceTree = "<group>"; };
-		3A0C0D2D25B5DF2000066A1D /* Testes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Testes.swift; path = ../../../MLmodule/MLmodule/Classes/Testes.swift; sourceTree = "<group>"; };
+		3A02EE6025B6163400309A85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../Downloads/AppIcons/Assets.xcassets; sourceTree = "<group>"; };
 		3A514B7B25ACA7BF0013BAFF /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
 		3AA4247125A740F500925A94 /* FilmesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmesAPI.swift; sourceTree = "<group>"; };
 		3AA4247625A76F9A00925A94 /* Filme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filme.swift; sourceTree = "<group>"; };
@@ -56,7 +55,6 @@
 		3AB0095425A73D4800B57FF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AB0095625A73D4800B57FF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3AB0095925A73D4800B57FF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3AB0095B25A73D4A00B57FF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AB0095E25A73D4A00B57FF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AB0096025A73D4A00B57FF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AB0096525A73D4B00B57FF3 /* Beca FilmesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beca FilmesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,7 +131,6 @@
 		3AB0094825A73D4800B57FF3 = {
 			isa = PBXGroup;
 			children = (
-				3A0C0D2D25B5DF2000066A1D /* Testes.swift */,
 				3AB0095325A73D4800B57FF3 /* Beca Filmes */,
 				3AB0096825A73D4B00B57FF3 /* Beca FilmesTests */,
 				3AB0097325A73D4B00B57FF3 /* Beca FilmesUITests */,
@@ -160,7 +157,7 @@
 				3AA4247425A76DBF00925A94 /* Model */,
 				3AA4247525A76DCD00925A94 /* Controller */,
 				3AB0095825A73D4800B57FF3 /* Main.storyboard */,
-				3AB0095B25A73D4A00B57FF3 /* Assets.xcassets */,
+				3A02EE6025B6163400309A85 /* Assets.xcassets */,
 				3AB0095D25A73D4A00B57FF3 /* LaunchScreen.storyboard */,
 				3AB0096025A73D4A00B57FF3 /* Info.plist */,
 				3A514B7B25ACA7BF0013BAFF /* UIImageViewExtension.swift */,
@@ -308,7 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AB0095F25A73D4A00B57FF3 /* LaunchScreen.storyboard in Resources */,
-				3AB0095C25A73D4A00B57FF3 /* Assets.xcassets in Resources */,
+				3A02EE6125B6163400309A85 /* Assets.xcassets in Resources */,
 				3AB0095A25A73D4800B57FF3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,19 +332,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Beca Filmes/Pods-Beca Filmes-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Beca Filmes/Pods-Beca Filmes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Beca Filmes/Pods-Beca Filmes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Beca Filmes/Pods-Beca Filmes-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Beca Filmes/Pods-Beca Filmes-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2DF610FE7C83F9B9F2D89A4D /* [CP] Check Pods Manifest.lock */ = {
@@ -426,7 +420,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AB0096A25A73D4B00B57FF3 /* Beca_FilmesTests.swift in Sources */,
-				3A0C0D2E25B5DF2000066A1D /* Testes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,8 +7,8 @@
 //
 
 import UIKit
-import Alamofire
-import AlamofireImage
+
+
 
 class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSource{
     
