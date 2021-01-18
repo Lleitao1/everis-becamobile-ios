@@ -17,6 +17,8 @@ class Beca_FilmesTests: XCTestCase {
     
     override func setUp() {
         vc.listaDeFilmes.count == 20
+        vc.viewDidLoad()
+        
         
     }
 
