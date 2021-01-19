@@ -14,16 +14,13 @@ import AlamofireImage
 class Beca_FilmesTests: XCTestCase {
 
     var vc: ViewController = ViewController()
+    var dvc: DetalhesViewController = DetalhesViewController()
     
     override func setUp() {
-        vc.listaDeFilmes.count == 20
         vc.viewDidLoad()
+        XCTAssertEqual(vc.listaDeFilmes.count, 20)
+        XCTAssertEqual(vc.listaDeFilmes[0].title, "Mulher Maravilha 1984")
         
-        
-    }
-
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
 }
