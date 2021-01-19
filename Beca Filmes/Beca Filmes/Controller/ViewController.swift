@@ -24,6 +24,7 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
         self.tabelaFilmes.delegate = self
         
         listarFilmes()
+        setupAccessibility()
 
     }
     
